@@ -1,5 +1,11 @@
 /* INDEX */
 
+*{ 
+    padding:0;
+    margin:0;
+
+}
+
 body
 {   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url("/MULTIMEDIA/tilcaratextura2.jpg") ;
@@ -8,35 +14,53 @@ body
 header{
 display: grid;
 grid-template-columns: repeat(12,1fr);
-grid-template-rows: 5rem  ;
+grid-template-rows: 5rem 8rem ;
 
 }
 
 nav{
-grid-column: 5/9;
+grid-column: 4/10 ;
 
 }
 
-.Navindex {  
+.ulnav{  
 display: flex;
-width: 100% ;
+width: 100%;
 height: 100%;
-justify-self: center;
+list-style: none;
+justify-content: space-around;
 
 }
 
-.Navindex li{
-margin: 10px;  
+.ulnav li{
+align-self: flex-end;
+padding-bottom: 1.5rem;
 
 }
 
-
-.Titulo__index {
-grid-template-rows: 7rem;
-text-align: center;
-margin: auto;
-padding: 20px 10px 20px 10px ;
+.ulnav li a{
+    color:black
 }
+
+.ulnav li a:hover{
+    color:white;
+}
+
+.Titulo__index{
+    grid-column: 4/10;
+    grid-row: 2/3;
+    justify-self: center; 
+    padding-top: 2rem;  
+}
+.Titulo__index h1{
+    font-size:2.5rem;
+}
+
+.Titulo__index h1 span{
+    font-weight: 100;
+    color:antiquewhite;
+}
+
 
 .Parrafo1 {
     
