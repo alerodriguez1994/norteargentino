@@ -1,0 +1,225 @@
+/* INDEX */
+
+body
+{   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("/MULTIMEDIA/tilcaratextura2.jpg") ;
+}
+
+header{
+display: grid;
+grid-template-columns: repeat(12,1fr);
+grid-template-rows: 5rem  ;
+
+}
+
+nav{
+grid-column: 5/9;
+
+}
+
+.Navindex {  
+display: flex;
+width: 100% ;
+height: 100%;
+justify-self: center;
+
+}
+
+.Navindex li{
+margin: 10px;  
+
+}
+
+
+.Titulo__index {
+grid-template-rows: 7rem;
+text-align: center;
+margin: auto;
+padding: 20px 10px 20px 10px ;
+}
+
+.Parrafo1 {
+    
+    font-size: 20px;
+    padding: 30px 0px 30px 0px ;
+    text-align: justify;
+    text-align: center;
+}
+
+.img__index  {
+    
+   display:flex ;
+   flex-direction: row;
+   justify-content:space-between; 
+}
+
+.imag__index1 {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    z-index: auto;
+    border-radius: 15px;
+    border: 7px solid black;
+   
+
+
+}
+
+
+.parrafo2{
+    font-size: 15px;
+    padding: 5px 0px 5px 0px ;
+    text-align: justify;
+    text-align: center;
+
+}
+
+li {
+    display: inline;
+
+}
+
+
+.Titulo__index2 {
+text-align: center;
+padding: 30px 30px 30px 30px;
+
+}
+
+.imagenes__turismo { 
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-between;
+    
+
+
+}
+
+.parrafo3__index{
+    
+      font-size: 20px;
+      padding: 10px 0px 10px 0px ;
+      text-align: justify;
+      
+
+}
+
+.img__footer{
+    width: 48px ; 
+    height: 48px ;
+
+}
+
+
+.footer__redes{
+    position: fixed; 
+    bottom: 10px;
+    right: 10px;
+    
+    
+}
+
+/* GALERIA */
+
+#titulogaleria{
+
+padding-left: 15px;
+text-align: center; 
+
+}
+
+.contenedor{
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 20rem *6 ;
+    justify-self: center    ;
+    
+}
+
+.imgaleria{
+ display: inline-block;
+
+}
+
+.img{
+
+    justify-content: space-around;
+    border-radius: 8px;
+    border: 7px solid black ;
+    margin: 30px;
+    width: 20rem;
+    height: 20rem;
+
+}
+
+
+/*  VIDEOS */
+
+.TituloVideos{
+text-align: center;
+
+}
+
+
+.Div_videos{
+ display: inline-block;
+ margin-left: 100px;
+ padding-top: 50px;
+ 
+
+}
+
+.Videos__iframe{
+    
+    margin: 20px;
+    padding: left 50px;
+    border-radius: 15px;
+}
+
+/* COMIDAS  */
+
+.TituloComidas{
+   margin: 20px;
+   text-align: center;
+   
+}
+
+.img_comidas{
+    
+width: 300px;
+height: 300px;
+border-radius: 8px;
+border: 7px solid black;
+    
+
+}
+
+.ulcomidas{
+display: inline-block;
+margin: 50px ;
+position: relative;
+right: -30px;
+
+
+
+}
+
+                                 /*   CONTACTOS   */
+
+.ContactosTitulo{
+    
+    text-align: center;
+
+}                                 
+
+form{
+background-color: darkgoldenrod;
+padding: 10px;
+border-radius: 5px;
+margin: 0px ;
+width: 200px;
+height: 300px;
+text-align: center;
+
+}
+
