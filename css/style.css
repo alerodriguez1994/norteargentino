@@ -63,11 +63,44 @@ padding-bottom: 1.5rem;
 
 
 .Parrafo1 {
-    
-    font-size: 20px;
-    padding: 30px 0px 30px 0px ;
-    text-align: justify;
-    text-align: center;
+    display:flex; 
+
+}
+
+.Parrafo1 div p{
+    font-size: large;
+    font-weight: 100;
+
+}
+
+.imagytex{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(5,auto);
+    padding-top: 2rem;
+}
+.img1{
+grid-column: 1/5;
+grid-row: 1/4;
+
+}
+.img2{
+    grid-column: 5/8;
+    grid-row: 1/4;
+}
+.img3{
+    grid-column: 8/12;
+    grid-row: 1/4;
+}
+
+.img1 img{
+width: 100%;
+}
+.img2 img{
+width: 100%;
+}
+.img3 img{
+width: 100%;    
 }
 
 .img__index  {
