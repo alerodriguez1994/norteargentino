@@ -75,14 +75,13 @@ padding-bottom: 1.5rem;
 }
 
 .imagytex{
-    display: grid;
-    grid-template-columns: repeat (3,1fr);
-    grid-auto-rows: 20rem 10rem ;
-   
+display: grid;
+grid-auto-rows: 20rem ;
+padding: 15px; 
 }
 .img1{
-grid-column: 1/4;
-border:5px solid black;
+    grid-column: 1/4;
+    border:5px solid black;
 
 }
 .img2{
@@ -95,10 +94,10 @@ border:5px solid black;
 }
 
 .img1 img{
-width: 100%;
-height: 100%;
-object-fit: cover;
-padding-right: 01.5rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-right: 01.5rem;
 }
 .img2 img{
 width: 100%;
@@ -137,12 +136,9 @@ padding: 30px 30px 30px 30px;
 }
 
 .imagenes__turismo { 
-    display: flex;
-    flex-direction: row nowrap;
-    justify-content: space-between;
-    
-
-
+  display: grid;
+  grid-auto-rows: 15rem;
+       
 }
 
 .parrafo3__index{
