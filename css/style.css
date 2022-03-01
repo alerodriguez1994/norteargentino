@@ -176,10 +176,6 @@ padding: 30px 30px 30px 30px;
     font-size:2.5rem;
 }    
 
-.secciongaleria {
-
-}
-
 .imgaleria {
    display:grid;
    grid-template-columns: repeat(3,1fr);
@@ -199,27 +195,37 @@ padding: 30px 30px 30px 30px;
 
 /*  VIDEOS */
 
-.TituloVideos{
-text-align: center;
-
+.Titulo__videos{
+    grid-column: 4/10;
+    grid-row: 2/3;
+    justify-self: center; 
+    padding-top: 2rem;  
 }
 
+.Titulo__videos h1{
 
+    font-size:2.5rem;
+    
+}
 .Div_videos{
- display: inline-block;
- margin-left: 100px;
- padding-top: 50px;
+ display: grid ;
+ grid-template-columns: repeat(2,1fr);
+ grid-template-rows: 22rem 22rem;
+ justify-content: center; 
+ justify-items: center;
  
-
 }
 
 .Videos__iframe{
-    
-    margin: 20px;
-    padding: left 50px;
+    padding-top: 20px;
     border-radius: 15px;
 }
 
+.parrafo_videos{
+padding: 10px;
+justify-self: center;
+
+}
 /* COMIDAS  */
 
 .TituloComidas{
