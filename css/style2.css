@@ -1,0 +1,17 @@
+/* INDEX */
+
+*{ 
+    padding:0;
+    margin:0;
+
+}
+
+
+
+
+/********************************** SECCION BOOTSTRAP******************************/
+
+.background{
+    background-image: url("/MULTIMEDIA/tilcaratextura2.jpg") ;
+
+}
