@@ -14,8 +14,24 @@
 .header h1{
     padding-top: 0.5rem;
 }
-.imgturismo{
-    padding-left: 15px;
-    grid-template-rows: 20rem;
 
+img{
+    padding-left: 4%;
+
+}
+
+p{
+    padding: 40px;
+    text-align: justify;
+}
+
+footer div img{
+    width: 40px;
+    height: 40px;   
+}
+footer div {
+    position: fixed; 
+    bottom: 3px;
+    right: 10px;
+    
 }
