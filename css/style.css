@@ -367,7 +367,13 @@ text-align: center;
     .Titulo__index h1{
         font-size: 1rem;
         padding-left: 2px;
+        transition: all 3s;
      
+    }
+    .Titulo__index h1:hover{
+        background-color: blanchedalmond;
+        font-size: medium;
+       
     }
     .Parrafo1 div p{
         font-size: 0.7rem;
@@ -419,11 +425,18 @@ text-align: center;
 }
 .Titulo__galeria h1{
     font-size: 1rem;
+    transition: all 3s;
+}
+.Titulo__galeria h1:hover{
+    background-color: blanchedalmond;
+    font-size: medium;
    
 }
 .imgaleria{
     grid-template-rows: 13rem 13rem 13rem; 
+    
 }
+
 
 /************** VIDEOS MEDIA QUERES***************/
 
@@ -437,13 +450,16 @@ text-align: center;
 }
 .Div_videos{
     grid-template-rows: 20rem 20rem ;
-
+    
+    
 }
 
-.Div_videos iframe {
+.Videos__iframe {
     width: 80%;
     height: 80%;
+    
 }
+
 .parrafo_videos{
     font-size: 0.8rem;
     line-height: 15px;
@@ -498,6 +514,6 @@ footer{
 /********************************** SECCION BOOTSTRAP******************************/
 
 .background{
-    background-image: url("/MULTIMEDIA/tilcaratextura2.jpg") ;
+    background-image: url("../multimedia/tilcaratextura2.jpg") ;
 
 }
