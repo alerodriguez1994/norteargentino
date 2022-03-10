@@ -1,0 +1,300 @@
+/* INDEX */
+
+*{ 
+    padding:0;
+    margin:0;
+
+}
+
+body{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("../multimedia/tilcaratextura2.jpg");
+
+    header{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: 5rem 8rem ;
+        
+        nav{
+            ul {
+                display: flex;
+                width: 100%;
+                height: 100%;
+                list-style: none;
+                justify-content: space-around;
+        
+                li{ 
+                    display: inline;
+                    align-self: flex-end;
+                    padding-bottom: 1.5rem;
+                    
+        
+                    a{
+                        color:black;
+                        
+                        &:hover{
+                            color:white;
+                        }
+        
+                    }
+                }
+            } 
+        } 
+        div{
+            grid-column: 4/10;
+            grid-row: 2/3;
+            justify-self: center; 
+            padding-top: 2rem;  
+            
+            h1{
+                font-size:2.5rem;
+                span{
+                    font-weight: 100;
+                    color:antiquewhite;
+                }
+            }
+        }
+    
+    }
+    section{
+        display:flex; 
+    
+          div{
+               p{
+                font-size: large;
+                font-weight: 100;
+                padding: 10px;
+               }
+          }
+    }
+    section{
+        display: grid;
+        grid-auto-rows: 20rem;
+        padding: 15px; 
+    
+         div{
+            grid-column: 1/4;
+            border:3px solid black;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+         div{
+            grid-column: 4/8;
+            border:3px solid black;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+         div{
+            grid-column: 8/12;
+            border: 3px solid black;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        
+    }
+    div{
+        p{
+        font-size: large;
+        font-weight: 100;
+        padding: 10px;
+    
+        }
+    
+    }
+    h1{
+        text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    }
+    section{
+        padding: 20px;
+           div{
+            display: flex;
+            justify-content: space-around;
+                div{
+                   img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border: 3px solid black;
+                    }
+                }
+                div{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border: 3px solid black;
+                    }
+                }
+                div{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border: 3px solid black;
+                    }
+                }
+                div{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border: 3px solid black;
+                    
+                    }
+                }
+            }
+    }
+    div{
+        p{         
+        font-size: large;
+        font-weight: 100;
+        padding: 20px;
+        text-align: justify;
+        }
+    }
+    footer{
+        div{
+            position: fixed; 
+            bottom: 3px;
+            right: 10px;
+               
+            a{
+                img{
+                     width: 30px ; 
+                     height: 30px ;
+                }
+            }    
+            a{
+    
+                img{
+                    width: 30px ; 
+                    height: 30px ;
+                        
+                    }
+            }
+            img{
+                width: 30px ; 
+                height: 30px ;
+            }
+                
+        }
+    
+        
+    }
+
+
+/***************SECCION GALERIA **************/
+
+section{
+       div{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 15rem 15rem 15rem;
+        padding: 10px;
+        column-gap: 5px;
+        row-gap: 5px;
+
+            div{
+               img{
+                width: 100%;
+                height: 100%;
+                object-fit:cover ;
+               }
+            }
+            div{
+               img{
+                width: 100%;
+                height: 100%;
+                object-fit:cover ;
+               }
+            }
+            div{
+                img{
+                width: 100%;
+                height: 100%;
+                object-fit:cover ;
+                }
+            }
+            div{
+                img{
+                width: 100%;
+                height: 100%;
+                object-fit:cover ; 
+                }
+            }
+            div{
+                img{
+                width: 100%;
+                height: 100%;
+                object-fit:cover ;
+                }
+            }
+             div{
+                img{
+                width: 100%;
+                height: 100%;
+                object-fit:cover ;
+                }
+            }
+             div{
+                img{
+                width: 100%;
+                height: 100%;
+                object-fit:cover ;
+                }
+            }
+             div{
+                img{
+                width: 100%;
+                height: 100%;
+                object-fit:cover ;
+                  
+                }
+            }
+        }
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+

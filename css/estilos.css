@@ -1,0 +1,158 @@
+/* INDEX */
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: url("../multimedia/tilcaratextura2.jpg");
+  /***************SECCION GALERIA **************/ }
+  body header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 5rem 8rem; }
+    body header nav ul {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      list-style: none;
+      justify-content: space-around; }
+      body header nav ul li {
+        display: inline;
+        align-self: flex-end;
+        padding-bottom: 1.5rem; }
+        body header nav ul li a {
+          color: black; }
+          body header nav ul li a:hover {
+            color: white; }
+    body header div {
+      grid-column: 4/10;
+      grid-row: 2/3;
+      justify-self: center;
+      padding-top: 2rem; }
+      body header div h1 {
+        font-size: 2.5rem; }
+        body header div h1 span {
+          font-weight: 100;
+          color: antiquewhite; }
+  body section {
+    display: flex; }
+    body section div p {
+      font-size: large;
+      font-weight: 100;
+      padding: 10px; }
+  body section {
+    display: grid;
+    grid-auto-rows: 20rem;
+    padding: 15px; }
+    body section div {
+      grid-column: 1/4;
+      border: 3px solid black; }
+      body section div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    body section div {
+      grid-column: 4/8;
+      border: 3px solid black; }
+      body section div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    body section div {
+      grid-column: 8/12;
+      border: 3px solid black; }
+      body section div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+  body div p {
+    font-size: large;
+    font-weight: 100;
+    padding: 10px; }
+  body h1 {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%; }
+  body section {
+    padding: 20px; }
+    body section div {
+      display: flex;
+      justify-content: space-around; }
+      body section div div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: 3px solid black; }
+      body section div div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: 3px solid black; }
+      body section div div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: 3px solid black; }
+      body section div div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: 3px solid black; }
+  body div p {
+    font-size: large;
+    font-weight: 100;
+    padding: 20px;
+    text-align: justify; }
+  body footer div {
+    position: fixed;
+    bottom: 3px;
+    right: 10px; }
+    body footer div a img {
+      width: 30px;
+      height: 30px; }
+    body footer div a img {
+      width: 30px;
+      height: 30px; }
+    body footer div img {
+      width: 30px;
+      height: 30px; }
+  body section div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 15rem 15rem 15rem;
+    padding: 10px;
+    column-gap: 5px;
+    row-gap: 5px; }
+    body section div div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    body section div div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    body section div div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    body section div div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    body section div div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    body section div div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    body section div div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    body section div div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
